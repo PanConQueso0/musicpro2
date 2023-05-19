@@ -1,1 +1,1 @@
-web: gunicorn musicpro.wsgi
+web: gunicorn musicpro.wsgi --log-file -
